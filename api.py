@@ -69,9 +69,9 @@ def connect_to_db():
     try:
         connection = pymysql.connect(
             host="localhost",
-            user="root",
-            password="*Kj@1512*",
-            database="college",
+            user="",
+            password="",
+            database="",
             cursorclass=pymysql.cursors.DictCursor
         )
         return connection
